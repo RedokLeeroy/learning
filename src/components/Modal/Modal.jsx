@@ -23,7 +23,7 @@ export class Modal extends Component{
                     <ImageStyle src={`https://image.tmdb.org/t/p/w500${image}`}
         width="350"
                         alt="Picture" />
-                    <button type="button" onClick={close}>X</button>
+                    <button type="button" onClick={close}>x</button>
             </ModalDiv>
            </Backdrop> 
         )
